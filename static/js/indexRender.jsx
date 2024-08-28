@@ -98,7 +98,7 @@ function Projects() {
             <details name="how">
                 <summary>Minecraft</summary>
                 <div className="blockInfo">
-                    <img className="blockIcon" src="./assets/minecraft/SPECIAL MUSHROOMS FORCES/pack.png" alt="Resource Pack Icon" />
+                    <img className="blockIcon" src="https://github.com/x5dfg/bio/blob/main/assets/minecraft/pack.png" alt="Resource Pack Icon" />
                     <div className="blockDescription">
                         <p>Текстурпак изменяющий текстуры специфичных объектов на грибную тематику.</p>
                         <p>Например, солнце в виде гриба или перекрестие. <b>Версия 1.16.X</b> (Обновления ещё будут)</p>
