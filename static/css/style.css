@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+
+:root {
+    --darkken-gray-color: rgba(200, 200, 200, 0.2);
+    --white-color: #ffffff;
+    --darken-color: #a1a1a1;
+    --accent-color: #ce3000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ff4500;
+    background-image: linear-gradient(140deg, #ce3000, #ff7b00, #831f00);
+    color: var(--white-color);    
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+footer {
+    position: static;
+    bottom: 0;
+    width: 100vw;
+    text-wrap: wrap;
+    max-height: 120vh;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgb(32, 32, 32);
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    backdrop-filter: blur(5px) brightness(0.5);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: var(--darken-color);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+footer p span a {
+    text-decoration: none;
+    color: var(--white-color);
+    margin: 0px 10px;
+}
+
+details {
+    border: 2px solid var(--accent-color);
+    border-radius: 20px;
+    padding: 20px;
+    
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in;
+    &[open] {
+        border: 2px solid #ff6e42;
+    }
+}
+
+details summary {
+    user-select: none;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: var(--darken-color);
+    cursor: pointer;
+}
+
+.packIcon {
+    width: 120px;
+    aspect-ratio: 1;
+    border-radius: 20px;
+}
+
+
+#links span a svg {
+    width: 80px;
+    aspect-ratio: 1;
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    justify-items: center;
+    align-items: center; /* Add this line */
+}
+
+.links-heading {
+    grid-column: 1 / -1;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.link-item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(#111111, #000000);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(206, 48, 0);
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.link-item:hover {
+    transform: translate3d(5px, 5px, 10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    background-image: radial-gradient(#303030, #1a1a1a, #000000);
+}
+
+.icon {
+    width: 32px;
+    aspect-ratio: 1;
+    color: #ffffff;
+}
+
+#links {
+    text-align: center;
+    justify-items: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgb(32, 32, 32);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: center; /* Выравнивание по горизонтали */
+    backdrop-filter: blur(5px) brightness(0.5);
+}
+
+header .logo {
+    background-color: transparent;
+    user-select: none;
+    width: 50px;
+    border-radius: 14px;
+    aspect-ratio: 1;
+}
+
+header nav a {
+    margin: 10px 20px;
+    padding: 6px 8px;
+    color: var(--darken-color);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 50px;
+    transition: all 0.25s ease-in;   
+
+    &:active, &:hover {
+        color: var(--white-color);
+        background: var(--darkken-gray-color);
+    }
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid var(--accent-color);
+    border-radius: 50px;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 40px;
+}
+
+.container section h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 64px;
+    margin: 0px;
+    color: var(--accent-color);
+
+}
+
+.container section p {
+    font-family: "Wix Madefor Display";
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.blockInfo {
+    display: flex;
+    align-items: flex-start;
+    background-color: transparent;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #161616, #131313, #070707);
+    border-radius: 20px;
+}
+
+.blockIcon {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.blockDescription {
+    flex: 1;
+}
+
+.blockDescription p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.blockButton {
+    font-family: "Wix Madefor Display";
+    font-size: 16px;
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: 14px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+::selection { 
+    color: rgb(255, 255, 255);
+    background: #05eeff42;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
