@@ -138,11 +138,11 @@ function Projects() {
                 <p>Скоро будет.</p>
             </details>
             <details name="how">
-                <summary>X5CHAT</summary>
+                <summary>Project 5</summary>
                 <div className="blockInfo">
                     <img className="blockIcon" src="https://cdn.discordapp.com/icons/1160516320455036949/59dc8c9bb1af0a72fc2cae434a8b0f85.png?size=1024" alt="Discord Server Icon" />
                     <div className="blockDescription">
-                        <p>????????? ###%%?@// д0ступ %55*@3 запре#$он.</p>
+                        <p>Project №5 (pre-alpha)</p>
                     </div>
                 </div>
             </details>
