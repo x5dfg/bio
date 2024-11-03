@@ -115,20 +115,8 @@ function Projects() {
                         <p><b>Triplex</b> - Бот инструмент/утилита. Имеет интеграции с АПИ: Nasa, OWM и Tenor.</p>
                         <p>Присутствует перевод слеш команд на пять языков.</p>
                         <span>
-                            <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=1255982377386119251&permissions=9195458784336&integration_type=0&scope=bot" className="blockButton" download>Добавить</a>
-                            <a target="_blank" href="https://discord.gg/8fVBVpeast" className="blockButton" download>Поддержка</a>
-                            <a target="_blank" href="https://top.gg/bot/1255982377386119251/vote" className="blockButton" download>Дать голос</a>
-                        </span>
-                    </div>
-                </div>
-                <div className="blockInfo">
-                    <img className="blockIcon" src="https://cdn.discordapp.com/avatars/1261251971315404812/285485f3cab67f5cf819bd35198e50ff.png?size=1024" alt="Discord Bot Avatar" />
-                    <div className="blockDescription">
-                        <p><b>D-CoreX</b> - Ассистент на сервере поддержки Triplex.</p>
-                        <p>Пингует в ответ на пост и опубликовывает его.</p>
-                        <p>P.s. Именно его ава стоит на фав-иконке.</p>
-                        <span>
-                            <a target="_blank" href="https://discord.gg/8fVBVpeast" className="blockButton" download>Поддержка</a>
+                            <a target="_blank" href="https://discord.com/oauth2/authorize?client_id=1255982377386119251&permissions=9195458784336&integration_type=0&scope=bot" className="blockButton">Добавить</a>
+                            <a target="_blank" href="https://top.gg/bot/1255982377386119251/vote" className="blockButton">Дать голос</a>
                         </span>
                     </div>
                 </div>
